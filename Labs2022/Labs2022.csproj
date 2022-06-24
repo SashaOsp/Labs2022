@@ -67,18 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="Images\free-icon-calendar-1250598.png" />
+    <Content Include="Images\free-icon-envelope-2089181.png" />
+    <Content Include="Images\free-icon-facebook-app-symbol-20837.png" />
+    <Content Include="Images\free-icon-linkedin-1384030.png" />
+    <Content Include="Images\free-icon-placeholder-1180805.png" />
+    <Content Include="Images\free-icon-skype-1400498.png" />
+    <Content Include="Images\free-icon-twitter-733635.png" />
     <Content Include="Images\Lab1Image1.png" />
-    <Content Include="Lab1.html" />
-    <Content Include="Lab2.html" />
-    <Content Include="Lab3.html" />
-    <Content Include="lab4.css" />
-    <Content Include="Lab4.html" />
+    <Content Include="Images\premium-icon-smartphone-1710200.png" />
+    <Content Include="Images\rasstrel.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="Lab1\Lab1.html" />
+    <Content Include="Lab2\Lab2.html" />
+    <Content Include="Lab3\Lab3.html" />
+    <Content Include="Lab4\lab4.css" />
+    <Content Include="Lab4\Lab4.html" />
+    <Content Include="Lab5\lab5.css" />
+    <Content Include="Lab5\lab5.html" />
+    <Content Include="Lab6\lab6.css" />
+    <Content Include="Lab6\lab6.html" />
+    <Content Include="Lab7\lab7a.html" />
+    <Content Include="Lab7\lab7b1.html" />
+    <Content Include="Lab7\lab7c.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="files\book.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -86,6 +105,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab10\" />
+    <Folder Include="Lab8\" />
+    <Folder Include="Lab9\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
